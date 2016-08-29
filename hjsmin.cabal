@@ -42,8 +42,8 @@ executable hjsmin
                  , blaze-builder        >= 0.2
                  , text                 >= 0.8
                  , containers           >= 0.2
-                 , language-javascript  >= 0.5.14
-                 , optparse-applicative >= 0.7
+                 , language-javascript  >= 0.5.14  && < 0.6
+                 , optparse-applicative == 0.13.*
 
 Test-Suite test-hjsmin
   Type: exitcode-stdio-1.0
